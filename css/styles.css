@@ -13818,7 +13818,7 @@ html {
 }
 
 .custom-photo {
-    max-width: 80%; 
+    max-width: 75%; 
     margin: 0 auto;
     display: block;
     object-fit: cover; 

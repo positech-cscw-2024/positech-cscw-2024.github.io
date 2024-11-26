@@ -13816,3 +13816,21 @@ html {
 #scrollToTop:hover {
     background-color: #444;
 }
+
+.custom-photo {
+    max-width: 80%; 
+    margin: 0 auto;
+    display: block;
+    object-fit: cover; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: lightgray;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: gray;
+    transition: background-color 0.3s ease;
+}

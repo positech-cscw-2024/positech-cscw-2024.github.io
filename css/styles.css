@@ -13821,10 +13821,18 @@ html {
     max-height: 750px; 
     width: auto;
     object-fit: contain;
-    /* height: auto; */
-    /* margin: 0 auto;
-    display: block;
-    object-fit: cover;  */
+}
+
+@media (max-width: 768px) {
+    .custom-photo {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-photo {
+        max-height: 200px;
+    }
 }
 
 .carousel-control-prev-icon,
